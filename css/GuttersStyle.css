@@ -24,6 +24,10 @@
         cursor: pointer;
     }
 
+    .header-image-size {
+        width: 50px;
+    }
+
     .header-buttons {
         display: none;
     }
@@ -31,44 +35,6 @@
     .contact-us-button {
         display: none;
     }
-
-    .dropdown {
-        position: relative;
-        display: inline-block;
-    }
-      
-    .dropdown-toggle {
-        background-color: #f2f2f2;
-        border: none;
-        color: #333;
-        padding: 8px 16px;
-        cursor: pointer;
-    }
-      
-    .dropdown-menu {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        padding: 12px;
-    }
-      
-    .dropdown-menu a {
-        display: block;
-        color: #333;
-        text-decoration: none;
-        padding: 4px 0;
-    }
-      
-    .dropdown-menu a:hover {
-        background-color: #ddd;
-    }
-      
-    .dropdown.open .dropdown-menu {
-        display: block;
-    }
-
 
 }
 
