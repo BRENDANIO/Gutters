@@ -1,0 +1,144 @@
+@media (max-width: 1000px) {
+    
+    .body-wrapper {
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    .top-header {
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-header-bottom {
+        background-color: #0a0a0a;
+        margin-top: 3px;
+        padding: 5px;
+    }
+
+    .header-image {
+        border: none;
+        padding: 0;
+        background: none;
+        cursor: pointer;
+    }
+
+    .header-buttons {
+        display: none;
+    }
+
+    .contact-us-button {
+        display: none;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+      
+    .dropdown-toggle {
+        background-color: #f2f2f2;
+        border: none;
+        color: #333;
+        padding: 8px 16px;
+        cursor: pointer;
+    }
+      
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px;
+    }
+      
+    .dropdown-menu a {
+        display: block;
+        color: #333;
+        text-decoration: none;
+        padding: 4px 0;
+    }
+      
+    .dropdown-menu a:hover {
+        background-color: #ddd;
+    }
+      
+    .dropdown.open .dropdown-menu {
+        display: block;
+    }
+
+
+}
+
+@media (min-width: 1001px) {
+
+    .body-wrapper {
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    .top-header {
+        background: #ffffff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;   
+    }
+
+    .top-header-bottom {
+        background-color: #0a0a0a;
+        margin-top: 3px;
+        padding: 5px;
+    }
+
+    .header-image {
+        border: none;
+        padding: 0;
+        background: none;
+        cursor: pointer;
+    }
+
+    .header-buttons {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        justify-content: space-between;
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin: 0px 30px;
+    }
+
+    .header-buttons:hover {
+        color: #333;
+        text-decoration: underline;
+    }
+
+    .contact-us-button {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        display: flex;
+        margin-left: auto !important;
+        border: 2px solid #0a0a0a;
+        color: #ffffff;
+        padding: 5px 20px;
+        border-radius: 10px;
+        background-color: #64b445 !important;
+        background: none;
+        cursor: pointer;
+        margin: 0px 30px;
+    }
+
+    .contact-us-button:hover {
+        background: rgb(100,180,69) !important;
+        background: radial-gradient(circle, rgba(100,180,69,1) 0%, rgba(78,152,50,1) 100%) !important;
+    }
+
+    .dropdown {
+        display: none;
+    }
+    
+}
