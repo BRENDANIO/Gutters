@@ -31,7 +31,7 @@
     }
 
     .header-image-size {
-        width: 80px;
+        width: 100px;
     }
 
     .header-buttons {
@@ -39,17 +39,25 @@
     }
 
     .contact-us-button {
-        display: none;
+        font-weight: bold;
     }
 
-    .extended-menu {
-        display: none;
-        padding: 10px;
+    .navbar {
         background-color: #f2f2f2;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
     }
     
-    .show-menu {
-        display: block !important;
+    .navbar-toggler {
+        border: none;
+    }
+
+    .nav-item {
+        padding-left: 10px;
+        font-size: 20px;
     }
 
 }
@@ -119,18 +127,21 @@
         background: radial-gradient(circle, rgba(100,180,69,1) 0%, rgba(78,152,50,1) 100%) !important;
     }
 
-    .extended-menu {
-        display: none;
-        padding: 10px;
+    .navbar {
         background-color: #f2f2f2;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
     }
     
-    .show-menu {
-        display: none !important;
+    .navbar-toggler {
+        border: none;
     }
 
-    .menu-toggle {
-        display: none !important;
+    .nav-item {
+        font-size: 20px;
     }
     
 }
