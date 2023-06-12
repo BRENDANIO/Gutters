@@ -8,7 +8,12 @@
     .top-header {
         background: #ffffff;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
     }
 
     .top-header-bottom {
@@ -18,6 +23,7 @@
     }
 
     .header-image {
+        float: left;
         border: none;
         padding: 0;
         background: none;
@@ -41,6 +47,16 @@
 
     .contact-us-button {
         display: none;
+    }
+
+    .extended-menu {
+        display: none;
+        padding: 10px;
+        background-color: #f2f2f2;
+    }
+    
+    .show-menu {
+        display: block !important;
     }
 
 }
