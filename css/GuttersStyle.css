@@ -39,6 +39,8 @@
     }
 
     .contact-us-button-menu {
+        padding-left: 10px !important;
+        border-bottom: none !important;
         font-weight: bold;
     }
 
@@ -56,9 +58,11 @@
     }
 
     .nav-item {
-        padding: 10px;
+        padding-left: 10px !important;
+        border-bottom: #0a0a0a solid 1px;
         font-size: 20px;
     }
+
 
     .contact-us-button {
         display: none;
@@ -101,6 +105,10 @@
     .body-wrapper {
         overflow-x: hidden;
         position: relative;
+    }
+
+    .container {
+        max-width: 82% !important;
     }
 
     .top-header {
@@ -216,6 +224,7 @@
     }
 
     .image-text h2 {
+        max-width: 1000px;
         width: fit-content;
         font-size: 4vw;
     }
