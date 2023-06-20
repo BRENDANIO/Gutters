@@ -5,6 +5,14 @@
         position: relative;
     }
 
+    .container {
+        max-width: 100% !important;
+    }
+
+    .container-no-padding {
+        padding: 0 !important;
+    }
+
     .top-header {
         background: #ffffff;
         display: flex;
@@ -71,12 +79,12 @@
     .image-container {
         position: relative;
         display: inline-block;
-        width: 100%;
+        max-width: 100% !important;
     }
 
     .image-container img {
         display: block;
-        width: 100%;
+        width: 100% !important;
         height: auto;
     }
       
@@ -91,11 +99,11 @@
 
     .image-text h2 {
         width: fit-content;
-        font-size: 4vw;
+        font-size: 6vw;
     }
 
     .image-text p {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
 }
