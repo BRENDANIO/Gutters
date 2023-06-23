@@ -6,7 +6,11 @@
     }
 
     .container {
-        max-width: 100% !important;
+        max-width: 991px;
+    }
+
+    .container-fullwidth {
+        max-width: 100%;
     }
 
     .container-no-padding {
@@ -26,7 +30,6 @@
 
     .top-header-bottom {
         background-color: #0a0a0a;
-        margin-top: 3px;
         padding: 2px;
     }
 
@@ -71,21 +74,27 @@
         font-size: 20px;
     }
 
-
     .contact-us-button {
         display: none;
     }
 
     .image-container {
-        position: relative;
-        display: inline-block;
-        max-width: 100% !important;
+        display: flex !important;
+        overflow: hidden !important;
+        position: relative !important;
+        width: 100% !important;  
+    }
+
+    .image-style {
+        width: 100% !important;
     }
 
     .image-container img {
-        display: block;
         width: 100% !important;
-        height: auto;
+        height: auto !important;
+        max-width: none !important;
+        min-width: 100% !important;
+        vertical-align: top;
     }
       
     .image-text {
@@ -99,11 +108,53 @@
 
     .image-text h2 {
         width: fit-content;
-        font-size: 6vw;
+        font-size: 5vw;
     }
 
     .image-text p {
         font-size: 3vw;
+    }
+
+    .section-divider {
+        background-color: #0a0a0a;
+        padding: 2px;
+    }
+
+    .customer-section {
+        background: rgb(34,34,34);
+        background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(102,102,102,1) 50%, rgba(34,34,34,1) 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .customer-section-image {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .customer-section-image img {
+        border: #0a0a0a solid 3px;
+    }
+
+    .customer-section-quote {
+        background: rgb(34,34,34);
+        background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(102,102,102,1) 50%, rgba(34,34,34,1) 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        color: #f2f2f2;
+        font-style: italic;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .customer-section-quote h2 {
+       font-size: 3vw;
     }
 
 }
@@ -113,10 +164,6 @@
     .body-wrapper {
         overflow-x: hidden;
         position: relative;
-    }
-
-    .container {
-        max-width: 82% !important;
     }
 
     .top-header {
@@ -210,16 +257,36 @@
         margin-left: auto !important;
     }
 
+    .container-no-padding {
+        padding: 0 !important;
+    }
+
+    .container-fullwidth {
+        max-width: 2000px !important;
+        border: #0a0a0a solid 2px !important;
+    }
+
     .image-container {
-        position: relative;
-        display: inline-block;
-        width: 100%;
+        display: flex !important;
+        overflow: hidden !important;
+        position: relative !important;
+        width: 100% !important;   
+    }
+
+    .image-style {
+        height: 448px !important;
+        padding: 0 !important;
+        top: 0 !important;
+        width: 100% !important;
+        z-index: 0 !important;
     }
 
     .image-container img {
-        display: block;
-        width: 100%;
-        height: auto;
+        width: 100% !important;
+        height: auto !important;
+        max-width: none !important;
+        min-width: 100% !important;
+        vertical-align: top;
     }
       
     .image-text {
@@ -232,14 +299,50 @@
     }
 
     .image-text h2 {
-        max-width: 1000px;
         width: fit-content;
-        font-size: 4vw;
+        font-size: 4em;
     }
 
     .image-text p {
-        font-size: 2vw;
+        font-size: 2em;
     }
       
+    .section-divider {
+        background-color: #0a0a0a;
+        padding: 2px;
+    }
+
+    .customer-section {
+        background: rgb(34,34,34);
+        background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(102,102,102,1) 50%, rgba(34,34,34,1) 100%);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .customer-section-image {
+        padding-left: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .customer-section-image img {
+        border: #0a0a0a solid 3px;
+    }
+
+    .customer-section-quote {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        color: #f2f2f2;
+        font-style: italic;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
 }
