@@ -1,4 +1,4 @@
-@media (max-width: 991px) {
+@media screen and (max-width: 500px) {
     
     .body-wrapper {
         overflow-x: hidden;
@@ -90,9 +90,8 @@
     }
 
     .image-container img {
-        margin-left: -150px;
         width: auto !important;
-        height: 400px !important;
+        height: 300px !important;
         max-width: none !important;
         min-width: 100% !important;
         vertical-align: top;
@@ -115,8 +114,6 @@
     .image-text p {
         font-size: 20px;
     }
-
-
 
     .services-header {
         padding-top: 30px;
@@ -169,6 +166,7 @@
         font-size: 20px;
         color: #000;
         font-weight: 500;
+        padding: 0 10px;
     }
 
     .column-images img {
@@ -229,7 +227,244 @@
 
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 501px) and (max-width: 991px) {
+    
+    .body-wrapper {
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    .container {
+        max-width: 991px;
+    }
+
+    .container-fullwidth {
+        max-width: 100%;
+    }
+
+    .container-no-padding {
+        padding: 0 !important;
+    }
+
+    .top-header {
+        background: #ffffff;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .top-header-bottom {
+        background-color: #0a0a0a;
+        padding: 2px;
+    }
+
+    .header-image {
+        float: left;
+        border: none;
+        padding: 0;
+        background: none;
+        cursor: pointer;
+    }
+
+    .header-image-size {
+        width: 100px;
+    }
+
+    .header-buttons {
+        display: none;
+    }
+
+    .contact-us-button-menu {
+        padding-left: 10px !important;
+        border-bottom: none !important;
+        font-weight: bold;
+    }
+
+    .navbar {
+        background-color: #f2f2f2;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+    }
+    
+    .navbar-toggler {
+        border-width: 4px;
+    }
+
+    .nav-item {
+        padding-left: 10px !important;
+        border-bottom: #0a0a0a solid 1px;
+        font-size: 20px;
+    }
+
+    .contact-us-button {
+        display: none;
+    }
+
+    .image-container {
+        display: flex !important;
+        overflow: hidden !important;
+        position: relative !important;
+        width: 100% !important;  
+    }
+
+    .image-style {
+        width: 100% !important;
+    }
+
+    .image-container img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: none !important;
+        min-width: 100% !important;
+        vertical-align: top;
+    }
+      
+    .image-text {
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 15px;
+    }
+
+    .image-text h2 {
+        width: fit-content;
+        font-size: 48px;
+    }
+
+    .image-text p {
+        font-size: 20px;
+    }
+
+    .services-header {
+        padding-top: 30px;
+        text-align: center;
+        color: #0a0a0a;
+    }
+
+    .services-header h2 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    .services-description {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .services-description p {
+        font-weight: bold;
+    }
+
+    .col-space {
+        margin: 0 30px !important;
+    }
+
+    .col {
+        flex: 0 1 auto !important;
+    }
+
+    .services-columns {
+        background-color: #64b445;
+        display: flex !important;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        margin-bottom: 30px;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5), -2px -2px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        border: #000 solid 2px;
+    }
+
+    .services-columns h3 {
+        display: inline-block;
+        padding: 4px 15px;
+        border-color: #f2f2f2 !important;
+        font-size: 35px;
+    }
+
+    .services-columns p {
+        text-shadow: none;
+        font-size: 20px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    .services-columns-text {
+        padding: 0px 10px !important;
+    }
+
+    .column-images img {
+        width: 200px !important;
+        height: 100% !important;
+        max-width: none !important;
+        min-width: 100% !important;
+        vertical-align: top;
+        border-right: #000 solid 2px;
+        border-top-left-radius: 10px !important;
+        border-bottom-left-radius: 10px !important;
+    }
+
+    .wave-effect {
+        position: relative;
+        display: flex;
+        flex-direction: column !important;
+        color: #ffffff;
+    }
+
+    .wave-effect svg {
+        fill: currentColor;
+    }
+
+    .customer-section {
+        background: rgb(34,34,34);
+        background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(102,102,102,1) 50%, rgba(34,34,34,1) 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .customer-section-image {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .customer-section-image img {
+        border: #0a0a0a solid 3px;
+    }
+
+    .customer-section-quote {
+        background: rgb(34,34,34);
+        background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(102,102,102,1) 50%, rgba(34,34,34,1) 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        color: #f2f2f2;
+        font-style: italic;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .customer-section-quote h2 {
+       font-size: 4vw;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
     
     .body-wrapper {
         overflow-x: hidden;
@@ -425,6 +660,7 @@
         text-shadow: none;
         color: #000;
         font-weight: 500;
+        padding: 0 10px;
     }
 
     .column-images img {
@@ -481,6 +717,7 @@
         font-style: italic;
         padding-left: 10px;
         padding-right: 10px;
+        right: auto;
     }
 
 }
