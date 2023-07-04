@@ -225,6 +225,74 @@
        font-size: 4vw;
     }
 
+    .contact-information-section {
+        margin: 30px;
+        text-align: center; 
+        align-items: center !important;
+        border: #0a0a0a solid 3px !important;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+
+    .contact-information-section h2 {
+        font-size: 48px !important;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), -2px -2px 4px rgba(0, 0, 0, 0.9) !important;
+        margin-bottom: 30px;
+    }
+
+    .contact-boxes {
+        display: flex;
+        justify-content: space-between;
+        align-items: center !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: #0a0a0a solid 3px;
+        background-color: #64b445;
+        margin-bottom: 10px;
+    }
+
+    .contact-boxes img {
+        width: 75px;
+        margin: 5px;
+    }
+
+    .contact-boxes h3 {
+        margin: 0px auto;
+        color: #f2f2f2;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        font-size: 25px;
+    }
+
+    .contact-boxes-form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: #0a0a0a solid 3px;
+        background-color: #64b445;
+        margin-bottom: 10px;
+    }
+
+    .contact-boxes-form h3 {
+        margin: 0px auto;
+        color: #f2f2f2;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        font-size: 25px;
+    }
+
+    .contact-boxes-form img {
+        width: 75px;
+        margin: 5px;
+    }
+
 }
 
 @media screen and (min-width: 501px) and (max-width: 991px) {
@@ -433,6 +501,12 @@
         align-content: center;
     }
 
+    .customer-section-row {
+        margin: 40px 30px;
+        border: #0a0a0a solid 3px !important;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
     .customer-section-image {
         margin-top: 15px;
         margin-bottom: 15px;
@@ -445,8 +519,6 @@
     }
 
     .customer-section-quote {
-        background: rgb(34,34,34);
-        background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(102,102,102,1) 50%, rgba(34,34,34,1) 100%);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -460,6 +532,72 @@
 
     .customer-section-quote h2 {
        font-size: 4vw;
+    }
+
+    .contact-information-section {
+        margin: 30px;
+        text-align: center; 
+        align-items: center !important;
+        border: #0a0a0a solid 3px !important;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+
+    .contact-information-section h2 {
+        font-size: 48px !important;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), -2px -2px 4px rgba(0, 0, 0, 0.9) !important;
+        margin-bottom: 30px;
+    }
+
+    .contact-boxes {
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: #0a0a0a solid 3px;
+        background-color: #64b445;
+        margin-bottom: 10px;
+    }
+
+    .contact-boxes img {
+        width: 75px;
+        margin: 5px;
+    }
+
+    .contact-boxes h3 {
+        color: #f2f2f2;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        font-size: 25px;
+    }
+
+    .contact-boxes-form {
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: #0a0a0a solid 3px;
+        background-color: #64b445;
+        margin-bottom: 10px;
+    }
+
+    .contact-boxes-form h3 {
+        color: #f2f2f2;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        font-size: 25px;
+    }
+
+    .contact-boxes-form img {
+        width: 75px;
+        margin: 5px;
     }
 
 }
@@ -691,8 +829,11 @@
     }
 
     .customer-section-row {
+        margin: 30px !important;
         display: flex;
         flex-direction: row !important;
+        border: #0a0a0a solid 3px !important;
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
     .customer-section-image {
@@ -718,6 +859,72 @@
         padding-left: 10px;
         padding-right: 10px;
         right: auto;
+    }
+
+    .contact-information-section {
+        margin: 30px;
+        text-align: center; 
+        align-items: center !important;
+        border: #0a0a0a solid 3px !important;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+
+    .contact-information-section h2 {
+        font-size: 64px !important;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), -2px -2px 4px rgba(0, 0, 0, 0.9) !important;
+        margin-bottom: 30px;
+    }
+
+    .contact-boxes {
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: #0a0a0a solid 3px;
+        background-color: #64b445;
+        margin-bottom: 10px;
+    }
+
+    .contact-boxes img {
+        width: 75px;
+        margin: 5px;
+    }
+
+    .contact-boxes h3 {
+        color: #f2f2f2;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        font-size: 40px;
+    }
+
+    .contact-boxes-form {
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: #0a0a0a solid 3px;
+        background-color: #64b445;
+        margin-bottom: 10px;
+    }
+
+    .contact-boxes-form h3 {
+        color: #f2f2f2;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        font-size: 40px;
+    }
+
+    .contact-boxes-form img {
+        width: 75px;
+        margin: 5px;
     }
 
 }
