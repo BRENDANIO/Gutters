@@ -210,7 +210,7 @@
     }
 
     .customer-section-image img {
-        width: fit-content;
+        max-width: fit-content;
         border: #0a0a0a solid 3px;
     }
 
