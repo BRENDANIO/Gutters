@@ -253,7 +253,7 @@
     }
 
     .contact-boxes img {
-        width: 75px;
+        width: 50px;
         margin: 5px;
     }
 
@@ -264,7 +264,7 @@
         justify-content: center !important;
         align-items: center !important;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .contact-boxes-form {
@@ -285,11 +285,11 @@
         justify-content: center !important;
         align-items: center !important;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .contact-boxes-form img {
-        width: 75px;
+        width: 50px;
         margin: 5px;
     }
 
