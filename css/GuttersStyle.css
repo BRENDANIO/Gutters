@@ -210,6 +210,7 @@
     }
 
     .customer-section-image img {
+        width: auto;
         border: #0a0a0a solid 3px;
     }
 
