@@ -196,6 +196,12 @@
         align-content: center;
     }
 
+    .customer-section-row {
+        margin: 5px;
+        border: #0a0a0a solid 3px !important;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
     .customer-section-image {
         margin-top: 15px;
         margin-bottom: 15px;
