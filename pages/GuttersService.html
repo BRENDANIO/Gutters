@@ -41,7 +41,44 @@
             </nav>
             <div class="top-header-bottom"></div>
 
-            <div class="container">
+            <div class="container container-no-padding container-fullwidth">
+                <div class="service-nav-bar">
+                    <h5>We Offer The Best Exterior Services</h5>
+                    <p>Check out our services below by selecting the category you are interested in!</p>
+                    <div class="service-nav-bar-button-row">
+                        <div class="service-nav-bar-button-row-mobile">
+                            <div class="service-nav-bar-button">
+                                <a onclick="scrollToServiceSection('Eavestrough')">
+                                    <img src="../assets/Eavestrough-Nav.jpg">
+                                    <span class="service-nav-bar-text">Eavestrough</span>
+                                </a>
+                            </div>
+                            <div class="service-nav-bar-button">
+                                <a onclick="scrollToServiceSection('GutterGuard')">
+                                    <img src="../assets/GutterGuards-Nav.jpg">
+                                    <span class="service-nav-bar-text">Gutter Guard</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="service-nav-bar-button-row-mobile">
+                            <div class="service-nav-bar-button">
+                                <a onclick="scrollToServiceSection('FasciaAndCladding')">
+                                    <img src="../assets/Fascia-Nav.jpg">
+                                    <span class="service-nav-bar-text">Fascia & Cladding</span>
+                                </a>
+                            </div>
+                            <div class="service-nav-bar-button">
+                                <a onclick="scrollToServiceSection('Soffit')">
+                                    <img src="../assets/Soffit-Nav.jpg">
+                                    <span class="service-nav-bar-text">Soffit</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="Eavestrough">
                 <div class="service-container">
                     <div class="image-container">
                         <div class="image-style service-image">
@@ -67,7 +104,7 @@
                 </div>
             </div>
 
-            <div class="container">
+            <div class="container" id="GutterGuard">
                 <div class="service-container">
                     <div class="image-container">
                         <div class="image-style service-image">
@@ -96,7 +133,7 @@
                 </div>
             </div>
 
-            <div class="container">
+            <div class="container" id="FasciaAndCladding">
                 <div class="service-container">
                     <div class="image-container">
                         <div class="image-style service-image">
@@ -118,7 +155,7 @@
                 </div>
             </div>
 
-            <div class="container">
+            <div class="container" id="Soffit">
                 <div class="service-container">
                     <div class="image-container">
                         <div class="image-style service-image">
@@ -151,3 +188,4 @@
 </html>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/scollToServiceSection.js"></script>
