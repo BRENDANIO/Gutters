@@ -325,14 +325,14 @@
 
     .service-nav-bar-button-row-mobile {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
     }
 
     .service-nav-bar-button {
         position: relative;
-        width: 70%;
+        width: 40%;
         height: auto;
         border-radius: 10px;
         box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5), -2px -2px 15px rgba(0, 0, 0, 0.5);
@@ -363,6 +363,22 @@
         color: white;
         font-weight: bold;
         text-align: center;
+    }
+
+    .services-title {
+        margin-top: 20px;
+        text-align: center;
+        background-color: #64b445;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        padding: 5px;
+        border-top: #0a0a0a solid 3px;
+        border-bottom: #0a0a0a solid 3px;
+    }
+
+    .services-title h3{
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
     }
 
     .service-container {
@@ -749,6 +765,7 @@
         text-align: center;
         flex-direction: column;
         width: 100% !important;
+        margin-bottom: 50px;
         padding: 10px;
         color: black;
     }
@@ -764,7 +781,7 @@
 
     .service-nav-bar-button-row {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -777,11 +794,11 @@
 
     .service-nav-bar-button {
         position: relative;
-        width: 200px;
-        height: 300px;
+        width: 150px;
+        height: 225px;
         border-radius: 10px;
         box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5), -2px -2px 15px rgba(0, 0, 0, 0.5);
-        margin: 10px 20px 50px 20px;
+        margin: 10px 5px 5px 10px;
     }
 
     .service-nav-bar-button:hover {
@@ -808,6 +825,22 @@
         color: white;
         font-weight: bold;
         text-align: center;
+    }
+
+    .services-title {
+        margin-top: 20px;
+        text-align: center;
+        background-color: #64b445;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        padding: 5px;
+        border-top: #0a0a0a solid 3px;
+        border-bottom: #0a0a0a solid 3px;
+    }
+
+    .services-title h3{
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
     }
 
     .service-container {
@@ -1271,6 +1304,22 @@
         color: white;
         font-weight: bold;
         text-align: center;
+    }
+
+    .services-title {
+        margin-top: 20px;
+        text-align: center;
+        background-color: #64b445;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        padding: 5px;
+        border-top: #0a0a0a solid 3px;
+        border-bottom: #0a0a0a solid 3px;
+    }
+
+    .services-title h3{
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
     }
 
     .service-container {
