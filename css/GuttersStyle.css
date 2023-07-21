@@ -303,6 +303,7 @@
         text-align: center;
         flex-direction: column;
         width: 100% !important;
+        margin-bottom: 50px;
         padding: 10px;
         color: black;
     }
@@ -332,11 +333,11 @@
 
     .service-nav-bar-button {
         position: relative;
-        width: 40%;
+        width: 45%;
         height: auto;
         border-radius: 10px;
         box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5), -2px -2px 15px rgba(0, 0, 0, 0.5);
-        margin: 10px 10px 50px 10px;
+        margin: 5px 5px 5px 5px;
     }
 
     .service-nav-bar-button:hover {
