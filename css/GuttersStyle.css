@@ -795,11 +795,16 @@
        font-size: 4vw;
     }
 
+    .no-border-background {
+        border: none !important;
+        background: none !important;
+    }
+
     .contact-information-section {
         margin: 30px;
         text-align: center; 
         align-items: center !important;
-        border: #0a0a0a solid 3px !important;
+        border: #0a0a0a solid 3px;
         border-radius: 10px;
         background-color: rgba(0, 0, 0, 0.5);
         padding: 10px;
@@ -1365,11 +1370,16 @@
         right: auto;
     }
 
+    .no-border-background {
+        border: none !important;
+        background: none !important;
+    }
+
     .contact-information-section {
         margin: 30px;
         text-align: center; 
         align-items: center !important;
-        border: #0a0a0a solid 3px !important;
+        border: #0a0a0a solid 3px;
         border-radius: 10px;
         background-color: rgba(0, 0, 0, 0.5);
         padding: 10px;
