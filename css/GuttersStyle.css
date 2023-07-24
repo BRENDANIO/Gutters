@@ -17,6 +17,10 @@
         padding: 0 !important;
     }
 
+    .container-5p {
+        padding: 2px !important;
+    }
+
     .top-header {
         background: #ffffff;
         display: flex;
@@ -230,11 +234,16 @@
        font-size: 4vw;
     }
 
+    .no-border-background {
+        border: none !important;
+        background: none !important;
+    }
+
     .contact-information-section {
         margin: 5px;
         text-align: center; 
         align-items: center !important;
-        border: #0a0a0a solid 3px !important;
+        border: #0a0a0a solid 3px;
         border-radius: 10px;
         background-color: rgba(0, 0, 0, 0.5);
         padding: 10px;
@@ -470,7 +479,7 @@
     .about-us-section img {
         border: #0a0a0a solid 3px;
         box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5), -2px -2px 15px rgba(0, 0, 0, 0.5);
-        width: 80%;
+        width: 100%;
 
     }
 
@@ -1576,12 +1585,13 @@
     }
 
     .about-us-section {
+        font-size: 20px;
         margin: 20px;
         text-align: center;
     }
     
     .about-us-section h3 { 
-        font-size: 50px;
+        font-size: 60px;
         font-weight: bold;
     }
 
@@ -1593,7 +1603,7 @@
     .about-us-section img {
         border: #0a0a0a solid 3px;
         box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5), -2px -2px 15px rgba(0, 0, 0, 0.5);
-        width: 500px;
+        width: 800px;
 
     }
 
@@ -1601,11 +1611,12 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-bottom: 10px;
+        padding-bottom: 30px;
         border: #0a0a0a solid 3px;
         border-radius: 10px;
         background-color: #64b445;
         margin-top: 20px;
+        
         color: white;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
         box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5), -2px -2px 15px rgba(0, 0, 0, 0.5);
@@ -1633,7 +1644,7 @@
         flex-direction: column;
         justify-content: center;
         align-self: center;
-        padding: 10px;
+        padding: 15px;
         border: #0a0a0a solid 3px;
         border-radius: 10px;
         background-color: #64b445;
@@ -1644,7 +1655,7 @@
     }
 
     .about-us-member h5 {
-        font-size: 30px;
+        font-size: 40px;
         font-weight: bold;
     }
 
