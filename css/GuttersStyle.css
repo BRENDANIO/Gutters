@@ -553,6 +553,114 @@
         margin: 10px;
     }
 
+    .contact-us-section {
+        font-size: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .contact-us-section h3 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .contact-us-section p {
+        font-weight: bold;
+    }
+
+    .contact-us-section-title {
+        margin-bottom: 50px;
+    }
+
+    .call-email-section {
+        border: #0a0a0a solid 3px;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5), -2px -2px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        background-color: #64b445;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+
+    .call-email-section a {
+        text-decoration: none;
+    }
+
+    .call-email-section:hover {
+        border: #0a0a0a solid 3px;
+        border-radius: 10px;
+        background-color: #5ca140;
+        padding: 10px;
+    }
+
+    .call-email-section h5 {
+        color: #0a0a0a ;
+        display: inline-block;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .call-email-section p {
+        font-size: 6vw;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        color: white;
+        font-weight: bold;
+    }
+
+    .contact-form {
+        margin: 20px;
+    }
+
+    .contact-form h4 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .contact-form form p {
+        font-weight: 400;
+        margin-top: 50px;
+    }
+
+    textarea {
+        display: block;
+        margin-right: 0;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+
+    textarea:not([rows]) {
+        min-height: 40px !important;
+        max-height: 500px;
+        height: 240px;
+    }
+
+    textarea:not([cols]) {
+        width: 100%;
+    }
+
+    .contact-form form button {
+        border: #0a0a0a solid 3px;
+        background-color: #64b445;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        color: white;
+        font-weight: bold;
+    }
+
+    .contact-form form button:hover {
+        border: #0a0a0a solid 3px;
+        background-color: #5ca140;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5), -2px -2px 15px rgba(0, 0, 0, 0.5);
+        color: white;
+        font-weight: bold;
+    }
+
 }
 
 @media screen and (min-width: 501px) and (max-width: 991px) {
@@ -1109,6 +1217,114 @@
         padding: 0px 10px !important;
         margin: 10px;
     }
+
+    .contact-us-section {
+        font-size: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .contact-us-section h3 {
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    .contact-us-section p {
+        font-weight: bold;
+    }
+
+    .contact-us-section-title {
+        margin-bottom: 50px;
+    }
+
+    .call-email-section {
+        border: #0a0a0a solid 3px;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5), -2px -2px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        background-color: #64b445;
+        padding: 5px;
+        margin: 20px;
+    }
+
+    .call-email-section a {
+        color: #0a0a0a;
+        text-decoration: none;
+    }
+
+    .call-email-section:hover {
+        border: #0a0a0a solid 3px;
+        border-radius: 10px;
+        background-color: #5ca140;
+        padding: 10px;
+    }
+
+    .call-email-section h5 {
+        display: inline-block;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .call-email-section p {
+        font-size: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        color: white;
+        font-weight: bold;
+    }
+
+    .contact-form {
+        margin: 20px;
+    }
+
+    .contact-form h4 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .contact-form form p {
+        font-weight: 400;
+        margin-top: 50px;
+    }
+
+    textarea {
+        display: block;
+        margin-right: 0;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+
+    textarea:not([rows]) {
+        min-height: 40px !important;
+        max-height: 500px;
+        height: 240px;
+    }
+
+    textarea:not([cols]) {
+        width: 100%;
+    }
+
+    .contact-form form button {
+        border: #0a0a0a solid 3px;
+        background-color: #64b445;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        color: white;
+        font-weight: bold;
+    }
+
+    .contact-form form button:hover {
+        border: #0a0a0a solid 3px;
+        background-color: #5ca140;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5), -2px -2px 15px rgba(0, 0, 0, 0.5);
+        color: white;
+        font-weight: bold;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -1168,6 +1384,12 @@
         background: none;
         cursor: pointer;
     }
+
+    .container a {
+        text-decoration: none;
+    }
+
+
 
     .contact-us-button:hover {
         background: rgb(100,180,69) !important;
@@ -1626,7 +1848,6 @@
         border-radius: 10px;
         background-color: #64b445;
         margin-top: 20px;
-        
         color: white;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
         box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5), -2px -2px 15px rgba(0, 0, 0, 0.5);
@@ -1684,6 +1905,114 @@
     .about-us-member-speech p {
         padding: 0px 10px !important;
         margin: 10px;
+    }
+
+    .contact-us-section {
+        font-size: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .contact-us-section h3 {
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    .contact-us-section p {
+        font-weight: bold;
+    }
+
+    .contact-us-section-title {
+        margin-bottom: 50px;
+    }
+
+    .call-email-section {
+        border: #0a0a0a solid 3px;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5), -2px -2px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        background-color: #64b445;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .call-email-section a {
+        color: #0a0a0a;
+        text-decoration: none;
+    }
+
+    .call-email-section:hover {
+        border: #0a0a0a solid 3px;
+        border-radius: 10px;
+        background-color: #5ca140;
+        padding: 10px;
+    }
+
+    .call-email-section h5 {
+        display: inline-block;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .call-email-section p {
+        font-size: 28px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        color: white;
+        font-weight: bold;
+    }
+
+    .contact-form {
+        margin: 20px;
+    }
+
+    .contact-form h4 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .contact-form form p {
+        font-weight: 400;
+        margin-top: 50px;
+    }
+
+    textarea {
+        display: block;
+        margin-right: 0;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+
+    textarea:not([rows]) {
+        min-height: 40px !important;
+        max-height: 500px;
+        height: 240px;
+    }
+
+    textarea:not([cols]) {
+        width: 100%;
+    }
+
+    .contact-form form button {
+        border: #0a0a0a solid 3px;
+        background-color: #64b445;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        color: white;
+        font-weight: bold;
+    }
+
+    .contact-form form button:hover {
+        border: #0a0a0a solid 3px;
+        background-color: #5ca140;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5), -2px -2px 15px rgba(0, 0, 0, 0.5);
+        color: white;
+        font-weight: bold;
     }
 
 }
