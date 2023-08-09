@@ -396,15 +396,6 @@
         text-align: center;
     }
 
-    .col a {
-        text-decoration: none;
-        color: white;
-    }
-
-    .col a:hover {
-        background-color: #5ca140;
-    }
-
     .services-title {
         margin-top: 20px;
         text-align: center;
