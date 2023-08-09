@@ -150,8 +150,6 @@
     .col a {
         text-decoration: none;
         color: white;
-        appearance: button;
-        -webkit-appearance: button;
     }
 
     .col a:hover {
@@ -159,6 +157,7 @@
     }
 
     .services-columns {
+        display: block;
         background-color: #64b445;
         text-align: center;
         color: whitesmoke;
