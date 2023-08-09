@@ -94,8 +94,8 @@
     }
 
     .image-container img {
-        width: 100% !important;
-        height: auto !important;
+        width: auto !important;
+        height: 300px !important;
         max-width: none !important;
         min-width: 100% !important;
         vertical-align: top;
