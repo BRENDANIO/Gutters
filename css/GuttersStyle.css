@@ -95,7 +95,7 @@
 
     .image-container img {
         width: 100% !important;
-        height: autp !important;
+        height: auto !important;
         max-width: none !important;
         min-width: 100% !important;
         vertical-align: top;
