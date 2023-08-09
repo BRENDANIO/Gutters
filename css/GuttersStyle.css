@@ -147,15 +147,6 @@
         flex: 0 1 auto !important;
     }
 
-    .col a {
-        text-decoration: none;
-        color: white;
-    }
-
-    .col a:hover {
-        background-color: #5ca140;
-    }
-
     .services-columns {
         display: block;
         background-color: #64b445;
@@ -404,6 +395,15 @@
         color: white;
         font-weight: bold;
         text-align: center;
+    }
+
+    .col a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .col a:hover {
+        background-color: #5ca140;
     }
 
     .services-title {
