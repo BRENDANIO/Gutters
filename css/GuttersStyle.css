@@ -651,6 +651,11 @@
         font-weight: bold;
     }
 
+    .contact-form h5 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
     .contact-form form {
         display: flex;
         flex-direction: column;
@@ -1348,6 +1353,11 @@
 
     .contact-form h4 {
         font-size: 40px;
+        font-weight: bold;
+    }
+
+    .contact-form h5 {
+        font-size: 30px;
         font-weight: bold;
     }
 
@@ -2070,6 +2080,11 @@
 
     .contact-form h4 {
         font-size: 40px;
+        font-weight: bold;
+    }
+
+    .contact-form h5 {
+        font-size: 30px;
         font-weight: bold;
     }
 
